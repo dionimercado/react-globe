@@ -11,6 +11,7 @@ function App() {
         <ReactGlobe
           size={[300, 300]}
           globeOptions={{ enableBackground: false }}
+          cameraOptions={{ enableZoom: false }}
         />
       </div>
     </div>
